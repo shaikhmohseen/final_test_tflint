@@ -8,7 +8,7 @@ on:
 
 jobs:
   tflint:
-    name: 'tflint'
+    name: 'Terraform Lint'
     runs-on: ubuntu-latest
 
 
