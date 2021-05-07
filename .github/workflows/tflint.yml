@@ -25,6 +25,6 @@ jobs:
     - name: Run TFLint
       run: tflint --config .tflint.hcl
       
-      #if your repository dont have .tflint.hcl file, default linting rules are tested 
-      #if your repository have .tflint.hcl file it will add more rules to default tflint rules 
-      #not having .tflint.hcl file will not harm execution , tflint will execute default rule set it have.
+      #if your repository dont have .tflint.hcl file, default linting rules are tested .
+      #if your repository have .tflint.hcl file it will add more rules to default tflint rules and execute. 
+      #not having .tflint.hcl file will not harm execution , tflint will execute default rules.
